@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("testsql", "root", "yohan12345, "mantap");
+$conn = mysqli_connect("testsql", "root", "yohan12345", "mantap");
 
 if ($conn->connect_error){
         die("Connection failed: " . $conn->connect_error);
